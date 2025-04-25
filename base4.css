@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 上の部分は気にせずここから書く */
+
+
+body {
+    margin: 0;
+    
+    height: 600px;
+    width: 900px;
+    background-color: white;
+    
+}
+
+
+.box{
+  background-color: white;
+  width: 900px;
+  height: 600px;
+  margin: 5px 200px 20px 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.red-box{
+  background-color: red;
+  height: 599px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.a{
+ background-color: white;
+ height: 50px;
+ width: 50px;
+ border: 1px solid black;
+ margin: 5px 5px 5px 5px;
+ 
+}
+
+.b{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 5px 5px 5px 5px;
+ 
+}
+
+.c{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border:1px solid black;
+  margin: 5px 5px 5px 5px;
+  
+}
+
+.blue-box{
+  background-color: blue;
+  height: 599px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.d{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 5px 5px 5px 130px;
+
+}
+
+.e{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 5px 5px 5px 5px;
+}
+
+.f{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 5px 5px 5px 5px;
+}
+
+.green-box{
+  background-color: green;
+  height: 599px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column-reverse;
+  
+}
+
+.g{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 5px 5px 5px 5px;
+}
+
+
+.h{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 5px 5px 5px 5px;
+}
+
+
+.i{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 5px 5px 5px 5px;
+}

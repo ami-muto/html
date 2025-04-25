@@ -40,7 +40,9 @@ body {
 /* 上の部分は気にせずここから書く */
 
 .box{
- margin: 5px 300px 300px 250px;
+ justify-content: center;
+ align-items: center; 
+ margin: 0 auto; 
  background-color: white;
  width: 400px;
  height: 400px;
